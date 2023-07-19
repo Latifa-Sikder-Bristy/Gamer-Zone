@@ -216,4 +216,33 @@ body {
     left: -30%;
     width: 50%;
 }
+/* Games section styles  */
+.games-main-container{
+    background-color: #FFF9FC;
+    margin-top: 20%;
+    padding: 8% 0%;
+}
+.games-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 1%;
+}
+.games{
+    border: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 50vw;
+    background: #FFF;
+    flex-shrink: 0;
+    color: #0B0223;
+    font-weight: 600;
+    margin: 1% 0%;
+    justify-content: center;
+}
 /* border: 1px solid red; */
