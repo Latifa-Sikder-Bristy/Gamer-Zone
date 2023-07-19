@@ -184,6 +184,11 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
+.card img:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 16px;
+    cursor: pointer;
+}
 
 /* Play instantly styles  */
 .play-instantly-container{
@@ -315,4 +320,82 @@ a {
     font-weight: 500;
     margin-top: 2%;
 }
-/* border: 1px solid red; */
+/* max size */
+@media screen and (max-width: 425px){
+    .nav-container{
+        flex-direction: column;
+        column-gap: 5%;
+        align-items: center;
+    }
+    .menu-items{
+        display: block;
+    }
+    .menu-items > a{
+        display: block;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-bottom: 50%;
+        height: 60vh;
+    }
+    .banner-title{
+        font-size: 1rem;
+    }
+    .goat{
+        font-size: 2.5rem;
+    }
+    .secondary-btn{
+        display: inline-flex;
+        padding: 10px 20px;
+        align-items: flex-start;
+        border-radius: 48px;
+        font-size: .5rem;
+    }
+    .primary-btn{
+        display: inline-flex;
+        padding: 10px 20px;
+        align-items: flex-start;
+        border-radius: 48px;
+        font-size: .5rem;
+    }
+    .banner-main-container{
+        margin-top: 60%;
+    }
+    .img-container> img{
+        position: absolute;
+        top: 70vh;
+        width: 50%;
+    }
+    .title-fontsize{
+        font-size:2rem;
+    }
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .description-fontsize{
+        font-size: .5rem;
+        text-align: center;
+    }
+    .title-fontsize{
+        font-size: 1rem;
+    }
+    .play-instantly-container{
+        flex-direction: column;
+    }
+    .text-container{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+    }
+    .description-fontsize{
+        margin-left: 0%;
+    }
+    .games-container{
+        flex-direction: row;
+    }
+    .games{
+        border-radius: 10vw;
+    }
+}
