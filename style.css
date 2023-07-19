@@ -164,7 +164,6 @@ body {
 
 /* Online game section styles */
 .online-game-container{
-    border: 1px solid red;
     justify-content: center;
     width: 80%;
     margin: auto;
@@ -177,7 +176,6 @@ body {
 .card-container{
     display: flex;
     gap: 20px;
-    border: 1px solid red;
 }
 .card{
     width: 50%;
@@ -193,7 +191,6 @@ body {
     gap: 20%;
     width: 80%;
     margin: auto;
-    border: 1px solid red;
     align-items: center;
     margin-top: 10%;
 }
@@ -201,17 +198,14 @@ body {
     width: 50%;
     text-align: right;
     width: 50%;
-    border: 1px solid red;
 }
 .text-container>p{
     width: 65%;
-    border: 1px solid red;
     margin-left: 35%;
 }
 .img-container{
     width: 50%;
     justify-content: center;
-    border: 1px solid red;
 }
 .bg-img{
     position: relative;
@@ -222,3 +216,4 @@ body {
     left: -30%;
     width: 50%;
 }
+/* border: 1px solid red; */
